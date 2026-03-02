@@ -98,4 +98,9 @@ if (!loginCheckbox.checked) {
     signUpSection.classList.add("hidden");
     loginSection.classList.remove("hidden");
 });
+document.getElementById("forgotten-password").addEventListener("click", function (){
+    alert("Please SignUp Again");
+    signUpSection.classList.remove("hidden");
+    loginSection.classList.add("hidden");
+})
 
