@@ -2,248 +2,79 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- google font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
-    rel="stylesheet">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
 
-  <!-- font awesome cdn link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
 
-  <!-- favicon link -->
-  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <title>Bahirer Bazar</title>
 
-  <title>Bahirer Bazar</title>
-
-  <style>
-    * {
-      font-family: "Arimo", sans-serif;
-    }
-
-    body {
-      background-color: #FFFFFF;
-    }
-  </style>
-   <!-- link Tailwind Css -->
+    <style>
+        * {
+            font-family: "Arimo", sans-serif;
+        }
+        body{
+            background-color: #F3F4EC;
+        }
+    </style>
+    <!-- link Tailwind Css -->
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
 </head>
 
 <body>
-  <header id="header" >
-    <div class="flex bg-[#fc8934] py-2 text-white  justify-center gap-5 text-[16px]">
-      <p class="">আমাদের যে কোন পণ্য অর্ডার করতে কল বা WhatsApp করুন:   |</p>
-      <a href="#"><i class="fa-solid fa-phone"></i>+8801321208940</a>
-       <a href="#"><i class="fa-solid fa-phone"></i>হট লাইন: 09642-922922</a>
-      </div>
-    <nav class="">
-      <!-- header top -->
-      <div class="flex justify-between items-center py-5 text-[#fc8934] container mx-auto">
-        
-        <button class="border-0">
-          <i class="fa fa-search" aria-hidden="true"></i>
-        </button>
-        <img src="./assets/brand-logo.png" alt="" class="w-32">
-        <div>
-          <a href="#"><i class="fa fa-user" aria-hidden="true"></i>
-        </i></a>
-        <a href="#"><i class="fa fa-shopping-cart ml-2" aria-hidden="true"></i>
-        </i></a>
+    <section id="login-section" class="max-w-2xl mx-auto border border-gray-300 rounded-xl p-10 mt-20 bg-white">
+        <div class="brand-logo max-w-2xs mx-auto mb-10">
+            <img src="./assets/brand-logo.png" alt="brand-logo">
         </div>
-         
-      </div>
-      
-      
-      
-      
-      <div class=" bg-[#f3f3f3] py-3 gap-5 text-[16px]">
-          <ul class="flex flex-row bg-[#f3f3f3] py-3 gap-5 text-[16px] container mx-auto">
-              <li>Offer Zone</li>
-              <li>Best Seller</li>
-              <li>Oil</li>
-              <li>Ghee</li>
-              <li>Dates</li>
-              <li>খেজুরের গুড়</li>
-              <li>Honey</li>
-              <li>Masala</li>
-              <li>Nuts & Seeds</li>
-              <li>Tea/Coffee </li>
-              <li>Honeyomb</li>
-              <li>Organic Zone</li>
-              <li>Pickle</li>
-          </ul>
-      </div>
-    </nav>
-    <div class="w-[100%]">
-      <img src="./assets/Ghorerbazar_cover_design_02.webp" alt="">
-  </div>
-  </header>
-<section class="card-section pt-12 container mx-auto">
-  
-  <h1 class="text-center text-3xl font-light mb-6 my-10">ALL PRODUCTS</h1>
-  
-  <div class="product-container  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+        <div class="login-form">
+            <div class="wlc-message">
+                <h1 class="text-4xl font-bold text-black">স্বাগতম!</h1>
+                <p class="text-gray-400 pt-3">আপনার অ্যাকাউন্ট লগ-ইন করুন</p>
+            </div>
+            <div class="user-field ">
+                <div class="input-field flex flex-col gap-5 my-5">
+                    <input type="text" id="number-email" placeholder="মোবাইল নাম্বার বা ইমেইল" class="border border-gray-400 p-4 rounded-lg">
+                    <input type="password" id="password" placeholder="পাসওয়ার্ড" class="border border-gray-400 p-4 rounded-lg">
+                </div>
+                <button class="btn bg-[#4524db] w-full text-white py-4 rounded-lg mb-5">
+                    <a href="dashboard.html">লগ-ইন করুন</a>
+                </button>
+                <p class="text-center">পাসওয়ার্ড ভুলে গেছেন?</p>
+                <p class="text-center pt-3">নতুন অ্যাকাউন্ট তৈরি করুন</p>
+            </div>
+        </div>
+    </section>
 
-
-    <div class="product-item border border-gray-300  p-5 flex flex-col items-center gap-3 relative">
-      <span class="bg-[#98d8ca] text-[12px] px-2  rounded-full absolute top-4 text-white">NO SALE</span>
-      <img src="./assets/Shsoti-Mastraid-oil5lt (1).jpg" alt="img">
-      <h3>মাস্টারয়েড তেল ৫ লিটার</h3>
-      <div class="price flex gap-3">
-        <p>৳ ১,২০০.00</p><p class="line-through text-gray-400">৳ ১,৫০০.00</p>
-      </div>
-      
-      <button class="bg-[#fc8934] text-white px-4 py-2 rounded-md">Quick Add</button>
-    </div>
-    <div class="product-item border border-gray-300  p-5 flex flex-col items-center gap-3 relative">
-      <span class="bg-[#98d8ca] text-[12px] px-2  rounded-full absolute top-4 text-white">NO SALE</span>
-      <img src="./assets/Black-Seeds-honey-1000gm_38dde83a-34b0-484a-87fa-73e27d337d11.webp" alt="img">
-      <h3>মাস্টারয়েড তেল ৫ লিটার</h3>
-      <div class="price flex gap-3">
-        <p>৳ ১,২০০.00</p><p class="line-through text-gray-400">৳ ১,৫০০.00</p>
-      </div>
-      
-      <button class="bg-[#fc8934] text-white px-4 py-2 rounded-md">Quick Add</button>
-    </div>
-    <div class="product-item border border-gray-300  p-5 flex flex-col items-center gap-3 relative">
-      <span class="bg-[#98d8ca] text-[12px] px-2  rounded-full absolute top-4 text-white">NO SALE</span>
-      <img src="./assets/Black-Seeds-honey-1000gm_38dde83a-34b0-484a-87fa-73e27d337d11.webp" alt="img">
-      <h3>মাস্টারয়েড তেল ৫ লিটার</h3>
-      <div class="price flex gap-3">
-        <p>৳ ১,২০০.00</p><p class="line-through text-gray-400">৳ ১,৫০০.00</p>
-      </div>
-      
-      <button class="bg-[#fc8934] text-white px-4 py-2 rounded-md">Quick Add</button>
-    </div>
-    <div class="product-item border border-gray-300  p-5 flex flex-col items-center gap-3 relative">
-      <span class="bg-[#98d8ca] text-[12px] px-2  rounded-full absolute top-4 text-white">NO SALE</span>
-      <img src="./assets/Black-Seeds-honey-1000gm_38dde83a-34b0-484a-87fa-73e27d337d11.webp" alt="img">
-      <h3>মাস্টারয়েড তেল ৫ লিটার</h3>
-      <div class="price flex gap-3">
-        <p>৳ ১,২০০.00</p><p class="line-through text-gray-400">৳ ১,৫০০.00</p>
-      </div>
-      
-      <button class="bg-[#fc8934] text-white px-4 py-2 rounded-md">Quick Add</button>
-    </div>
-    <div class="product-item border border-gray-300  p-5 flex flex-col items-center gap-3 relative">
-      <span class="bg-[#98d8ca] text-[12px] px-2  rounded-full absolute top-4 text-white">NO SALE</span>
-      <img src="./assets/Black-Seeds-honey-1000gm_38dde83a-34b0-484a-87fa-73e27d337d11.webp" alt="img">
-      <h3>মাস্টারয়েড তেল ৫ লিটার</h3>
-      <div class="price flex gap-3">
-        <p>৳ ১,২০০.00</p><p class="line-through text-gray-400">৳ ১,৫০০.00</p>
-      </div>
-      
-      <button class="bg-[#fc8934] text-white px-4 py-2 rounded-md">Quick Add</button>
-    </div>
-    <div class="product-item border border-gray-300  p-5 flex flex-col items-center gap-3 relative">
-      <span class="bg-[#98d8ca] text-[12px] px-2  rounded-full absolute top-4 text-white">NO SALE</span>
-      <img src="./assets/Black-Seeds-honey-1000gm_38dde83a-34b0-484a-87fa-73e27d337d11.webp" alt="img">
-      <h3>মাস্টারয়েড তেল ৫ লিটার</h3>
-      <div class="price flex gap-3">
-        <p>৳ ১,২০০.00</p><p class="line-through text-gray-400">৳ ১,৫০০.00</p>
-      </div>
-      
-      <button class="bg-[#fc8934] text-white px-4 py-2 rounded-md">Quick Add</button>
-    </div>
-    <div class="product-item border border-gray-300  p-5 flex flex-col items-center gap-3 relative">
-      <span class="bg-[#98d8ca] text-[12px] px-2  rounded-full absolute top-4 text-white">NO SALE</span>
-      <img src="./assets/Black-Seeds-honey-1000gm_38dde83a-34b0-484a-87fa-73e27d337d11.webp" alt="img">
-      <h3>মাস্টারয়েড তেল ৫ লিটার</h3>
-      <div class="price flex gap-3">
-        <p>৳ ১,২০০.00</p><p class="line-through text-gray-400">৳ ১,৫০০.00</p>
-      </div>
-      
-      <button class="bg-[#fc8934] text-white px-4 py-2 rounded-md">Quick Add</button>
-    </div>
-    <div class="product-item border border-gray-300  p-5 flex flex-col items-center gap-3 relative">
-      <span class="bg-[#98d8ca] text-[12px] px-2  rounded-full absolute top-4 text-white">NO SALE</span>
-      <img src="./assets/Black-Seeds-honey-1000gm_38dde83a-34b0-484a-87fa-73e27d337d11.webp" alt="img">
-      <h3>মাস্টারয়েড তেল ৫ লিটার</h3>
-      <div class="price flex gap-3">
-        <p>৳ ১,২০০.00</p><p class="line-through text-gray-400">৳ ১,৫০০.00</p>
-      </div>
-      
-      <button class="bg-[#fc8934] text-white px-4 py-2 rounded-md">Quick Add</button>
-    </div>
-    <div class="product-item border border-gray-300  p-5 flex flex-col items-center gap-3 relative">
-      <span class="bg-[#98d8ca] text-[12px] px-2  rounded-full absolute top-4 text-white">NO SALE</span>
-      <img src="./assets/Black-Seeds-honey-1000gm_38dde83a-34b0-484a-87fa-73e27d337d11.webp" alt="img">
-      <h3>মাস্টারয়েড তেল ৫ লিটার</h3>
-      <div class="price flex gap-3">
-        <p>৳ ১,২০০.00</p><p class="line-through text-gray-400">৳ ১,৫০০.00</p>
-      </div>
-      
-      <button class="bg-[#fc8934] text-white px-4 py-2 rounded-md">Quick Add</button>
-    </div>
-    <div class="product-item border border-gray-300  p-5 flex flex-col items-center gap-3 relative">
-      <span class="bg-[#98d8ca] text-[12px] px-2  rounded-full absolute top-4 text-white">NO SALE</span>
-      <img src="./assets/Black-Seeds-honey-1000gm_38dde83a-34b0-484a-87fa-73e27d337d11.webp" alt="img">
-      <h3>মাস্টারয়েড তেল ৫ লিটার</h3>
-      <div class="price flex gap-3">
-        <p>৳ ১,২০০.00</p><p class="line-through text-gray-400">৳ ১,৫০০.00</p>
-      </div>
-      
-      <button class="bg-[#fc8934] text-white px-4 py-2 rounded-md">Quick Add</button>
-    </div>
-    
-
-  </div>
-
-</section>
-<section class="img-cellection hidden">
-  <h1>COLLECTION</h1> 
-    <div>
-      <img src="./assets/Shsoti-Mastraid-oil5lt (1).jpg" alt="img">
-      <img src="./assets/Shsoti-Mastraid-oil5lt (1).jpg" alt="img">
-      <img src="./assets/Shsoti-Mastraid-oil5lt (1).jpg" alt="img">
-      <img src="./assets/Shsoti-Mastraid-oil5lt (1).jpg" alt="img">
-      <img src="./assets/Shsoti-Mastraid-oil5lt (1).jpg" alt="img">
-      <img src="./assets/Shsoti-Mastraid-oil5lt (1).jpg" alt="img">
-    </div>
-</section>
-<section class="footer-field hidden">
-  <footer>
-    <div>
-      <img src="./assets/brand-logo.png" alt="img">
-      <p>Bahirer Bazar: Your Trusted Source for Safe & Organic Food</p>
-      <p>Bahirer Bazar is a leading e-commerce platform committed to delivering safe, healthy, and organic food products across Bangladesh. Renowned for its dedication to quality, Ghorer Bazar offers a diverse range of health-focused items, including premium mustard oil, pure ghee, organic honey, dates, chia seeds, and an assortment of nuts. Each product is carefully sourced and crafted to ensure maximum health benefits, meeting the highest standards of purity and freshness.<br>
-
-With a focus on convenience, Bahirer Bazar operates primarily online, bringing the goodness of nature straight to your doorstep. Whether you're seeking to elevate your wellness journey or simply enjoy natural, wholesome foods, Bahirer Bazar is your go-to destination for authentic, trustworthy products.</p>
-    </div>
-
-    <div>
-      <H3>Company</H3>
-      <p>About Us</p>
-      <p><a href="#">রিটার্ন পলিসি</a></p>
-      <p><a href="#">রিফান্ড পলিসি</a></p>
-    </div>
-
-    <div>
-      <H3>QUICK HELP</H3>
-      <p><a href="#">গ্রাহক সেবা</a></p>
-      <p><a href="#">Contact</a></p>
-    </div>
-
-<div>
-  <p>DBID ID : 437361334</p>
-</div>
-
-<div>
-  <i class="fa-brands fa-facebook-f"></i>
-  <p>© ঘরের বাজার 2024</p>
-  <div>
-    <p><i class="fa-solid fa-hand"></i><a href="#">Chat with us</a></p>
-  </div>
-</div>
-
-  </footer>
-</section>
+    <section id="sign-up-section" class="max-w-2xl mx-auto border border-gray-300 rounded-xl p-10 mt-20 bg-white">
+        <div class="brand-logo  max-w-2xs mx-auto mb-10">
+            <img src="./assets/brand-logo.png" alt="brand-logo">
+        </div>
+        <div class="signup-form">
+            <h1 class="text-4xl font-bold text-black">নতুন অ্যাকাউন্ট তৈরি করুন</h1>
+            <p class="text-gray-400 pt-3">আমাদের সাথে যুক্ত হোন</p>
+            <div class="input-field flex flex-col gap-5 my-5">
+                <input type="text" id="full-name" placeholder="পূর্ণ নাম"
+                    class="border border-gray-400 p-4 rounded-lg">
+                <input type="number" id="number" placeholder="মোবাইল নাম্বার" class="border border-gray-400 p-4 rounded-lg">
+                <input type="email" id="email" placeholder="ইমেইল(ঐচ্ছিক)" class="border border-gray-400 p-4 rounded-lg">
+                <input type="password" id="password" placeholder="পাসওয়ার্ড" class="border border-gray-400 p-4 rounded-lg">
+                <input type="password" id="password" placeholder="পাসওয়ার্ড নিশ্চিত করুন" class="border border-gray-400 p-4 rounded-lg">
+                <div class="chackbox">
+                    <input type="checkbox">
+                    <p>আমি <span>শর্তাবলী</span> এবং <span>গোপনীয়তা নীতি</span> মেনে নিচ্ছি </p>
+                </div>
+                <button class="btn bg-[#4524db] w-full text-white py-4 rounded-lg mb-5">নিবন্ধন করুন</button>
+                <p>ইতিমধ্যে অ্যাকাউন্ট আছে? <span>লগ-ইন করুন</span></p>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
