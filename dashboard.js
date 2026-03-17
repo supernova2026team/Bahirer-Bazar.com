@@ -24,5 +24,5 @@ container.addEventListener("click", function (e) {
   }
 });
 document.querySelector(".fa-shopping-cart").addEventListener("click", function(){
-    cart.classList.toggle("hidden"); /toggle kore korlam jeo cart icon click korle kaj hoy.
+    cart.classList.toggle("hidden"); //toggle kore korlam jeo cart icon click korle kaj hoy.
 })
